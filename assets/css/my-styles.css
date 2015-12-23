@@ -1,0 +1,17 @@
+.ipad-app-image {
+  background: url('../images/ipad.png') center top no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.desktop-app-image {
+  background: url('../images/desktop.png') center center no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.material-design-image {
+  background: url('../images/01_NavigationDrawer.png') center top no-repeat;
+  background-size: contain;
+  height: 400px;
+}
