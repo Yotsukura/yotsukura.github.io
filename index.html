@@ -1,50 +1,83 @@
 <!doctype html>
 <html lang="ja">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Material Design Lite -->
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- material design lite template stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <!-- my stylesheet -->
-    <link rel="stylesheet" href="assets/css/my-styles.css">
-    <!-- font Roboto -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Material Design Lite -->
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.blue-red.min.css" />
+  <!-- Material Design icon font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- my stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- font Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+</head>
 
-  <body>
-    <div class="android-customized-section">
-      <div class="android-customized-section-text">
-        <div class="mdl-typography--font-Regular mdl-typography--display-2-color-contrast">My Design</div>
-        <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">iPad App</div>
-        <p class="mdl-typography--font-light">
-          <a href="" class="android-link mdl-typography--font-light">View Other Design of "iPad App"</a>
-        </p>
+<body>
+   <!-- Uses a header that scrolls with the text, rather than staying
+     locked at the top -->
+   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+     <header class="mdl-layout__header">
+       <div class="mdl-layout__header-row">
+         <span class="mdl-layout-title">yotsukura.github.io</span>
+       </div>
+     </header>
+     <main class="mdl-layout__content">
+      <div class="page-content">
+        <!-- Your content goes here -->
+        <!-- content1 card -->
+        <div class="spacer"></div>
+        <div class="profile-card mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title mdl-card--expand">
+            <h2 class="mdl-card__title-text">&nbsp;&nbsp;YOTSUKURA Shohei</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            User Interface Designer<br>
+            Creative Coder
+          </div>
+        </div>
+        <div class="centered">
+          <!-- content2 design -->
+          <div class="spacer"></div>
+          <div class="mdl-typography--font-regular mdl-typography--display-1-color-contrast">Design</div>
+          <p class="mdl-typography--font-light">
+            <a href="" class="android-link mdl-typography--font-light">View Other "Design"</a>
+          </p>
+          <div class="design-image"></div>
+          <!-- content3 art -->
+          <div class="spacer"></div>
+          <div class="mdl-typography--font-regular mdl-typography--display-1-color-contrast">Art</div>
+          <p class="mdl-typography--font-light">
+            <a href="" class="android-link mdl-typography--font-light">View Other "Art"</a>
+          </p>
+          <div class="art-image"></div>
+        </div>
+        <!-- contents end -->
+        <div class="spacer"></div>
+        <!-- footer -->
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">
+              Contact
+            </div>
+            <ul class="mdl-mini-footer__link-list">
+              <li><a href="m&#97;&#105;l&#116;&#111;&#58;s&#46;yo&#116;s&#117;k&#117;ra&#64;gm&#97;&#105;l&#46;&#99;om">Mail</a></li>
+              <li><a href="https://www.facebook.com/shohei.yotsukura">Facebook</a></li>
+              <li><a href="https://www.dropbox.com/sh/4k3qxolxsugeo8q/AAAJ9bnbManCAT6e2oBwPUbJa?dl=0">Dropbox</a></li>
+            </ul>
+          </div>
+          <div class="mdl-mini-footer__right-section">
+            <a class="mdl-typography--font-light" href="">
+              Back to Top
+              <i class="material-icons">expand_less</i>
+            </a>
+          </div>
+        </footer>
       </div>
-      <div class="ipad-app-image"></div>
-    </div>
-    <div class="android-customized-section">
-      <div class="android-customized-section-text">
-        <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Desktop App</div>
-        <p class="mdl-typography--font-light">
-          <a href="" class="android-link mdl-typography--font-light">View Other Design of "Desktop App"</a>
-        </p>
-      </div>
-      <div class="desktop-app-image"></div>
-    </div>
-    <div class="android-customized-section">
-      <div class="android-customized-section-text">
-        <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">My Skill: Design of iPad App</div>
-        <p class="mdl-typography--font-light">
-          <a href="" class="android-link mdl-typography--font-light">View Other Design</a>
-        </p>
-      </div>
-      <div class="material-design-image"></div>
-    </div>
-  </body>
-</html>
+     </main>
+   </div>
+ </body>
+
+ </html>
