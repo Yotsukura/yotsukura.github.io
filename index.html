@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <!-- font Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="assets/images/favicon.ico">
 </head>
 
@@ -28,6 +29,7 @@
      <main class="mdl-layout__content">
       <div class="page-content">
         <!-- Your content goes here -->
+        <a name="top"></a>
         <!-- content1 card -->
         <div class="spacer"></div>
         <div class="profile-card mdl-card mdl-shadow--2dp">
@@ -44,38 +46,45 @@
           <div class="spacer"></div>
           <div class="mdl-typography--font-regular mdl-typography--display-1-color-contrast">Design</div>
           <p class="mdl-typography--font-light">
-            <a href="" class="android-link mdl-typography--font-light">View Other "Design"</a>
+            <!--<a href="" class="mdl-typography--font-light">View Other "Design"</a>-->
           </p>
           <div class="design-image"></div>
           <!-- content3 art -->
           <div class="spacer"></div>
           <div class="mdl-typography--font-regular mdl-typography--display-1-color-contrast">Art</div>
           <p class="mdl-typography--font-light">
-            <a href="" class="android-link mdl-typography--font-light">View Other "Art"</a>
+            <!--<a href="" class="mdl-typography--font-light">View Other "Art"</a>-->
           </p>
           <div class="art-image"></div>
           <!-- content4 contacts list -->
+          <div class="spacer"></div>
           <div class="mdl-typography--font-regular mdl-typography--display-1-color-contrast">Contacts List</div>
-        </div>
+          <ul class="contacts-list">
+            <a href="m&#97;&#105;l&#116;&#111;&#58;s&#46;yo&#116;s&#117;k&#117;ra&#64;gm&#97;&#105;l&#46;&#99;om" class="mdl-typography--font-regular list-element">
+              <i class="fa fa-envelope fa"></i> Mail
+            </a>
+            <a href="https://www.facebook.com/shohei.yotsukura" class="mdl-typography--font-regular list-element">
+              <i class="fa fa-facebook fa"></i> Facebook
+            </a>
+            <a href="https://github.com/yotsukura/" class="mdl-typography--font-regular list-element">
+              <i class="fa fa-github-alt fa"></i> Github
+            </a>
+            <a href="" class="mdl-typography--font-regular list-element">
+              <i class="fa fa-vimeo fa"></i> Vimeo
+            </a>
+            <a href="https://www.dropbox.com/sh/4k3qxolxsugeo8q/AAAJ9bnbManCAT6e2oBwPUbJa?dl=0" class="mdl-typography--font-regular list-element">
+              <i class="fa fa-dropbox fa"></i> Dropbox
+            </a>
+          </ul>
+          <div class="spacerS"></div>
         <!-- contents end -->
-        <div class="spacer"></div>
+        </div>
         <!-- footer -->
         <footer class="mdl-mini-footer">
-          <div class="mdl-mini-footer__left-section">
-            <div class="mdl-logo">
-              Contact
-            </div>
-            <ul class="mdl-mini-footer__link-list">
-              <li><a href="m&#97;&#105;l&#116;&#111;&#58;s&#46;yo&#116;s&#117;k&#117;ra&#64;gm&#97;&#105;l&#46;&#99;om">Mail</a></li>
-              <li><a href="https://www.facebook.com/shohei.yotsukura">Facebook</a></li>
-              <li><a href="https://www.dropbox.com/sh/4k3qxolxsugeo8q/AAAJ9bnbManCAT6e2oBwPUbJa?dl=0">Dropbox</a></li>
-            </ul>
-          </div>
           <div class="mdl-mini-footer__right-section">
-            <a class="mdl-typography--font-light" href="">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="location.href='#top'">
               Back to Top
-              <i class="material-icons">expand_less</i>
-            </a>
+            </button>
           </div>
         </footer>
       </div>
