@@ -25,3 +25,16 @@
   background-size: cover;
   height: 400px;
 }
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-element {
+  margin: 8px;
+}
+
+.spacerS {
+  height: 64px;
+}
