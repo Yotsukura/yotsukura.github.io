@@ -38,3 +38,20 @@
 .spacerS {
   height: 64px;
 }
+
+.navigation-hover .mdl-navigation__link {
+  color: #e0e0e0;
+}
+.navigation-hover .mdl-navigation__link:hover {
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 4px solid #ffffff;
+}
+
+.demo-back {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: white;
+  z-index: 9999;
+}
