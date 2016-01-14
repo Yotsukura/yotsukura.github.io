@@ -1,3 +1,8 @@
+.title {
+/*  margin: auto;*/
+  color: #ffffff
+}
+
 .profile-card.mdl-card {
   width: 320px;
   height: 320px;
@@ -9,7 +14,7 @@
     url('../images/profile.png') bottom right 15% no-repeat #46B6AC;
   background-size:320px auto;
 }
-.centered {
+.text-center {
   text-align: center;
 }
 .design-image {
@@ -29,10 +34,12 @@
 .contacts-list {
   display: flex;
   flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .list-element {
-  margin: 8px;
+  margin: 0 auto;
 }
 
 .spacerS {
@@ -48,10 +55,63 @@
   border-bottom: 4px solid #ffffff;
 }
 
-.demo-back {
+.back {
   position: absolute;
   top: 16px;
   left: 16px;
   color: white;
   z-index: 9999;
+}
+
+.mdl-cell {
+  display: flex;
+
+  box-sizing: border-box;
+  background-color: #fafafa;/*bdbdbd*/
+  height: 200px;
+  /*padding-left: 8px;
+  padding-top: 4px;*/
+  color: white;
+}
+
+.image-card.mdl-card {
+  margin:auto;
+}
+.image00 {background: url('../images/design/iPadApp00.jpg') center / cover;}
+.image01 {background: url('../images/design/iPadApp01.jpg') center / cover;}
+.image02 {background: url('../images/design/iPadApp02.jpg') center / cover;}
+.image03 {background: url('../images/design/iPadApp03.jpg') center / cover;}
+.image04 {background: url('../images/design/MacApp.jpg') center / cover;}
+.image05 {background: url('../images/design/MaterialDesign00.jpg') center / 50%; background-repeat: no-repeat;}
+.image06 {background: url('../images/design/MaterialDesign01.jpg') center / 50%; background-repeat: no-repeat;}
+.image07 {background: url('../images/design/MaterialDesign02.jpg') center / 50%; background-repeat: no-repeat;}
+.image08 {background: url('../images/design/MaterialDesign03.jpg') center / 50%; background-repeat: no-repeat;}
+.image09 {background: url('../images/design/OD3.jpg') center / 70%;}
+.image10 {background: url('../images/design/RackEffect.jpg') center / cover;}
+.image11 {background: url('../images/design/Shoes.jpg') center / cover;}
+
+.image-card > .mdl-card__actions {
+  height: 32px;
+  padding: auto;
+  background: rgba(255, 255, 255, 0.3);
+}
+.image-card__filename {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mdl-grid {
+  max-width: 900px;
+}
+
+.art-video {
+  max-width: 750px;
+  margin: auto;
+}
+
+.art-gif {
+  background: url('../images/oF4.gif') center center no-repeat;
+  background-size: cover;
+  max-width: 750px;
+  height: 400px;
+  margin: auto;
 }
