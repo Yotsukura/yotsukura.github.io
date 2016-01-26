@@ -115,3 +115,18 @@
   height: 400px;
   margin: auto;
 }
+
+.art-js {
+    border:none;
+    margin-left: 300px;
+}
+
+.wrap-art-js {
+    margin:10px 0;
+}
+.wrap-art-js iframe {
+    margin: auto;
+    display:block;
+        text-align: center;
+        background: #000;
+}
