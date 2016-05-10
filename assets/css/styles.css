@@ -77,6 +77,13 @@
 .image-card.mdl-card {
   margin:auto;
 }
+.icon00 {background: url('../images/design/icon1.png') center / contain; background-repeat: no-repeat;}
+.icon01 {background: url('../images/design/icon2.png') center / contain; background-repeat: no-repeat;}
+.icon02 {background: url('../images/design/icon3.png') center / contain; background-repeat: no-repeat;}
+.icon03 {background: url('../images/design/icon4.png') center / contain; background-repeat: no-repeat;}
+.icon04 {background: url('../images/design/icon5.png') center / contain; background-repeat: no-repeat;}
+.icon05 {background: url('../images/design/icon6.png') center / contain; background-repeat: no-repeat;}
+
 .image00 {background: url('../images/design/iPadApp00.jpg') center / cover;}
 .image01 {background: url('../images/design/iPadApp01.jpg') center / cover;}
 .image02 {background: url('../images/design/iPadApp02.jpg') center / cover;}
