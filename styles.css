@@ -78,10 +78,17 @@
 
 .portfolio-logo-row {
   min-height: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mdl-layout__title {
+  margin: 0px;
+  padding: 0px;
 }
 
 .is-compact .portfolio-logo-row {
-  min-height: auto;
+  min-height: 56px !important;
 }
 
 .portfolio-logo {
@@ -95,7 +102,8 @@
 .is-compact .portfolio-logo {
   height: 50px;
   width: 50px;
-  margin: auto auto 36px;
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
 .portfolio-navigation-row {
