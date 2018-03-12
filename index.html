@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>YOTSUKURA Shohei</title>
+  <title>yotsukura.design</title>
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome CDN -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <link rel="stylesheet" href="css/yotsukura.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107901306-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -37,56 +36,92 @@
     gtag('config', 'UA-107901306-1');
   </script>
 
-
 </head>
+
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- section one -->
-  <div class="section one">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-white">
     <div class="container">
-      <h1>YOTSUKURA Shohei</h1>
-      <h1>This is Portfolio Website</h1>
-    </div>
-  </div>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        &nbsp;yotsukura.design
+      </a>
 
-  <!-- section iam -->
-  <div class="section iam">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h4>I am ...</h4>
-          <p>Probrem Solver / UX Designer / Service Designer / IxD Designer / UI Designer</p>
-          <a class="button button-primary" href="http://yotsukura.hatenablog.com/">VIEW MY BLOG</a>
-          <a class="button" href="https://www.wantedly.com/users/17863757">WANTEDLY PROFILE</a>
-        </div>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Nabbar" aria-controls="Nabbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="Nabbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/yotsukuradesign">Twitter.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/shohei.yotsukura">Facebook.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="m&#97;&#105;l&#116;&#111;&#58;s&#46;yo&#116;s&#117;k&#117;ra&#64;gm&#97;&#105;l&#46;&#99;om">Mail.</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- /Navigation -->
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-lg-6 my-5 py-3 rect-dark">
+        <p class="h1 text-white">こんにちわ！</p>
+        <p class="text-white">これは四倉昇平のポートフォリオです。アプリとWebのUIデザインを作っていて、人に喜ばれることが好きです。結果的にUXを考えたりしているので、巷では叩かれがちなUI/UXデザイナーと名乗っています。<br>
+        過去の経歴に興味がある方はWantedlyを、どんな考え方を持っているかに興味がある方はブログを覗いてみて下さい。</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://www.wantedly.com/users/17863757" class="text-primary">Wantedly</a></li>
+          <li class="list-inline-item text-white">|</li>
+          <li class="list-inline-item"><a href="http://yotsukura.hatenablog.com/" class="text-primary">ブログ</a></li>
+        </ul>
       </div>
     </div>
   </div>
-<hr>
-  <!-- section graphic -->
-  <div class="section graphic">
-    <div class="container">
-      <div class="row">
-        <h4>Graphic Design</h4>
-        <a class="button" href="https://drive.google.com/open?id=0B777GYSvl4sxelNHXzFRWmJWcUk">VIEW WORKS</a>
+</div>
+
+<div class="googledrive">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-8 col-lg-6 my-5 py-5 rect-blue align-self-end">
+        <p class="h1">Graphic Design</p>
+        <p>これまでの経歴で作ったUIデザインやグラフィックデザイン、取扱説明書などをGoogleドライブに掲載しています。</p>
+        <p><a href="https://drive.google.com/open?id=0B777GYSvl4sxelNHXzFRWmJWcUk" class="text-warning">Googleドライブ</a></p>
       </div>
     </div>
   </div>
-<hr>
-  <!-- section contact -->
-  <div class="section contact">
-    <div class="container">
-      <div class="row">
-        <h4>Contact</h4>
-        <p><a href="http://yotsukura.hatenablog.com/">Blog</a></p>
-        <p><a href="https://www.facebook.com/shohei.yotsukura">Facebook</a></p>
-        <a href="m&#97;&#105;l&#116;&#111;&#58;s&#46;yo&#116;s&#117;k&#117;ra&#64;gm&#97;&#105;l&#46;&#99;om">Mail</a>
-      </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-end">
+    <div class="col-sm-12 col-md-8 col-lg-6 my-5 py-3 phoneimage">
     </div>
   </div>
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-white">
+    <div class="container">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="https://twitter.com/yotsukuradesign" class="text-muted">Twitter</a></li>
+        <li class="list-inline-item"><a href="https://www.facebook.com/shohei.yotsukura" class="text-muted">Facebook</a></li>
+        <li class="list-inline-item"><a href="m&#97;&#105;l&#116;&#111;&#58;s&#46;yo&#116;s&#117;k&#117;ra&#64;gm&#97;&#105;l&#46;&#99;om" class="text-muted">Mail</a></li>
+      </ul>
+      <p class="text-muted">&copy; 2018 yotsukura.design</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
