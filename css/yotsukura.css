@@ -1,5 +1,8 @@
-.link-color {
-  color: #ff0000;
+a.my-link {
+    color: #F50057 !important;
+}
+a.my-link:hover {
+    color: #000000 !important;
 }
 
 .intro {
