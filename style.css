@@ -101,10 +101,10 @@ p{
 .button + .button{
     margin-left: 24px;
 }
-.content{
+.container{
     display: flex;
 }
-.content + .content{
+.container + .container{
     margin-top: 24px;
 }
 .text + .img {
@@ -113,24 +113,24 @@ p{
 .img + .text {
     margin-left: 32px;
 }
-.content .text{
+.container .text{
     width: var(--five-eight);
     position:relative;
 }
-.content .img{
+.container .img{
     width: var(--three-eight);
     text-align: center;
 }
-.content .img img{
+.container .img img{
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
-.content .img .profile-image{
+.container .img .profile-image{
     margin: auto;
     width: 160px;
 }
-.content + .content + .content{
+.container + .container + .container{
     margin-top: 80px;
 }
 footer{
@@ -145,16 +145,16 @@ footer p{
     h1.motto{
         position: relative;
     }
-    .content {
+    .container {
         flex-direction: column;
       }
-    .content .text{
+    .container .text{
         width: 100%;
     }
-    .content .img{
+    .container .img{
         width: 100%;
     }
-    .content .img .profile-image{
+    .container .img .profile-image{
         width: 120px;
     }
     .text + .img {
