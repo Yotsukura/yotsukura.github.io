@@ -34,11 +34,33 @@ header path{
     fill:var(--black);
     margin: auto;
 }
+.breadcrumbs > ul {
+    display: flex;
+    margin: 16px 0px;
+    padding-left: 0px;
+}
+nav ul {
+    list-style: none;
+}
+nav li, nav a {
+    color: var(--black);
+    font-size: 14px;
+}
+.breadcrumbs li + li:before {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: var(--black);
+    border-radius: 50%;
+    content: "";
+    vertical-align: 3px;
+    margin: 0px 8px;
+}
 section{
     margin-bottom: 160px;
 }
 h1{
-    font-size: 36px;
+    font-size: 40px;
     line-height: 52px;
     font-weight: 400;
     margin-top: 0px;
@@ -117,6 +139,11 @@ p{
     width: var(--five-eight);
     position:relative;
 }
+.container img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
 .container .img{
     width: var(--three-eight);
     text-align: center;
@@ -132,6 +159,11 @@ p{
 }
 .container + .container + .container{
     margin-top: 80px;
+}
+.work-description {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 footer{
     height: 80px;
