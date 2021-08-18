@@ -136,6 +136,12 @@ p{
 .container + .container{
     margin-top: 24px;
 }
+.container + .container-wide-top{
+    margin-top: 80px;
+}
+/* .container + .container + .container{
+    margin-top: 80px;
+} */
 .box + .box {
     margin-left: 32px;
 }
@@ -160,9 +166,6 @@ p{
     margin: auto;
     width: 160px;
 }
-.container + .container + .container{
-    margin-top: 80px;
-}
 footer{
     height: 80px;
     color: var(--grey);
@@ -184,11 +187,14 @@ footer p{
     .container .box-three-eights .profile-image{
         width: 120px;
     }
+    .container + .container-wide-top{
+        margin-top: 48px;
+    }
     .box + .box {
         margin-left: 0px;
     }
     .box-half + .box-half {
-        margin-top: 80px;
+        margin-top: 48px;
     }
     .column-reverse{
         flex-direction: column-reverse;
