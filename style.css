@@ -3,8 +3,9 @@
     --black: #444444;
     --grey: #A2A6BD;
     --white: #ffffff;
-    --five-eight:61%;
-    --three-eight:36%;
+    --five-eights:61%;
+    --four-eights:48%;
+    --three-eights:36%;
 }
 body{
     font-family: "Helvetica Neue",
@@ -22,6 +23,10 @@ body{
 }
 a:hover{
     opacity: 50%;
+}
+img{
+    object-fit: contain;
+    width: 100%;
 }
 header{
     height: 128px;
@@ -115,6 +120,8 @@ p{
     margin-right: 8px;
     margin-bottom: 2px;
     vertical-align: middle;
+    width: auto;
+    height: auto;
 }
 .button.contained{
     color:var(--white);
@@ -129,41 +136,32 @@ p{
 .container + .container{
     margin-top: 24px;
 }
-.text + .img {
+.box + .box {
     margin-left: 32px;
 }
-.img + .text {
-    margin-left: 32px;
+.container .box-full{
+    width: 100%;
 }
-.container .text{
-    width: var(--five-eight);
+.container .box-five-eights{
+    width: var(--five-eights);
     position:relative;
 }
-.container img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
+.container .box-half{
+    width: var(--four-eights);
 }
-.container .img{
-    width: var(--three-eight);
+.container .box-half p{
+    margin-top: 16px;
+}
+.container .box-three-eights{
+    width: var(--three-eights);
     text-align: center;
 }
-.container .img img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-}
-.container .img .profile-image{
+.container .box-three-eights .profile-image{
     margin: auto;
     width: 160px;
 }
 .container + .container + .container{
     margin-top: 80px;
-}
-.work-description {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 footer{
     height: 80px;
@@ -180,20 +178,17 @@ footer p{
     .container {
         flex-direction: column;
       }
-    .container .text{
+    .container .box{
         width: 100%;
     }
-    .container .img{
-        width: 100%;
-    }
-    .container .img .profile-image{
+    .container .box-three-eights .profile-image{
         width: 120px;
     }
-    .text + .img {
+    .box + .box {
         margin-left: 0px;
     }
-    .img + .text {
-        margin-left: 0px;
+    .box-half + .box-half {
+        margin-top: 80px;
     }
     .column-reverse{
         flex-direction: column-reverse;
